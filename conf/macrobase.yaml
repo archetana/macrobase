@@ -11,6 +11,9 @@ logging:
 
 macrobase.analysis.minSupport: 0.001
 macrobase.analysis.minOIRatio: 2
-macrobase.loader.db.user: postgres
-macrobase.loader.db.password: postgres
 
+macrobase.loader.loaderType: MYSQL_LOADER
+macrobase.loader.db.url: localhost:3306
+macrobase.loader.db.database: om
+macrobase.loader.db.user: root
+macrobase.loader.db.password: 
